@@ -1,0 +1,51 @@
+.about-section {
+  background-color: #ffffff; /* Light cyan background */
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0;
+}
+.info{
+  margin-left: 2rem;
+ }
+
+.about-section .aboutname {
+  font-family: 'Sacramento', cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: black;
+  padding-top: 1rem;
+  }
+
+.about-subtitle {
+  font-family: "Staatliches", serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #090a0a; /* Darker text color */
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333; /* Text color */
+  margin-bottom: 1rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-badge {
+  display: inline-block;
+  background-color: #00acc1; /* Cyan badge background */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}

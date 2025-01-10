@@ -1,0 +1,110 @@
+/* Header Section Styles */
+#header {
+    background-color: #81F5FF;
+    padding:  0;
+  }
+  
+  .hero-section {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Ensure responsiveness for smaller screens */
+  }
+  
+  .header-content {
+    display: flex;/* Align items vertically */
+
+    /* Space between items */
+  }
+  
+  /* Social Icons */
+.social-icons {
+    position: absolute;
+    top: 50%; /* Center vertically relative to the header */
+    left: 0; /* Align to the left edge of the window */
+    transform: translateY(-50%); /* Adjust to perfectly center vertically */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #81F5FF;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .social-icons a {
+    color: #000;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ecffff;
+  }
+  
+  /* Header Text */
+  .header-text {
+    text-align: center;
+  }
+  
+  #header h1 {
+    margin: 14% 0 0 0;
+    color: #00ADB5;
+    font-size: 4.4rem;
+    /* font-weight:r bolde; */
+    font-family: 'Sacramento', cursive;
+  }
+  
+  #header h1:hover {
+    color: #381460;
+  }
+  
+  #header p {
+    margin: -20px 0px 0px 0px;
+    color: #8785A2;
+    font-size: 1.8rem;
+    font-family: "Clicker Script", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  #header p:hover {
+    color: #27496D;
+  }
+  
+  /* Profile Picture */
+  .profile-pic img {
+    margin: 5% 0 10% 20%;
+    border-radius: 50%; /* Circular image */
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+  }
+  
+  .profile-pic:hover img{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+  }
+
+
+  /* Download Button */
+  #header .btn {
+    font-family: "Staatliches", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    background-color: #81F5FF;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #header .btn:hover {
+    background-color: #070707;
+    color: white;
+    text-decoration: none;
+  }
+  

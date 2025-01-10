@@ -1,0 +1,128 @@
+/* Navbar Container */
+.logo {
+  width: 80px; /* Adjust width */
+  height: 80px; /* Adjust height */
+}
+
+.logo:hover {
+  animation: rotateImage 0.1s infinite;
+}
+
+@keyframes rotateImage {
+  0% {
+      transform: rotate3d(0, 0, 0, 0deg);
+  }
+
+  100% {
+      transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+header {
+    background-color: #e0f7fa; /* Cyan background */
+    padding: 4rem; /* Padding for the navbar */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation links */
+    align-items: center; /* Align items vertically */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-decoration: none;
+  }
+  
+  /* Logo Section */
+  header .flex.items-center {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Space between icon and text */
+    text-decoration: none;
+  }
+  
+  header .flex.items-center .bg-white {
+   /* Circular background for the icon */
+    text-decoration: none;
+    background-color: #81F5FF;
+    
+  }
+  
+  header .flex.items-center i {
+    font-size: 1.5rem;
+    color: #055052; /* Black icon color */
+    text-decoration: none;
+    
+  }
+  
+  header .flex.items-center a{
+    font-size: 2.1rem;
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #090a0a; /* Black text color */
+   
+  }
+  
+  header .flex.items-center a :hover {
+    font-size: 2.1rem;
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #faffff; /* Black text color */
+    text-decoration: none;
+  }
+  
+  .bg-cyan-300 {
+    background-color: #81F5FF;
+  }
+  
+
+/* Style for the name in the navbar */
+.navbar-name{
+  display: inline-block;
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: #000; /* Initial color */
+  text-decoration: none;
+  transition: transform 0.6s ease, color 0.6s ease; /* Smooth flip transition */
+}
+
+/* Hover effect for vertical flip */
+.navbar-name:hover {
+  transform: rotatey(180deg); /* Full vertical flip */
+  color: #ffffff; /* Change color on hover */
+}
+
+
+  /* Navigation Links */
+  header nav {
+    display: flex;
+    gap: 1.7rem; /* Space between links */
+    text-decoration: none;   
+  }
+  
+  header nav a {
+    font-family: "Staatliches", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.7rem;
+    color: #055052; /* Black link color */
+    text-decoration: none; /* Remove underline */
+    
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  header nav a:hover {
+    color: #ecffff; /* Blue color on hover */
+    text-decoration: none; 
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    header nav {
+      margin-top: 1rem; /* Space between logo and links */
+      gap: 1rem;
+    }
+  }
+  

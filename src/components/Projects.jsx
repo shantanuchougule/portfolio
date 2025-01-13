@@ -1,27 +1,26 @@
 import React from "react";
 import "./Projects.css"; // Custom styles
 
+
 const Projects = () => {
   const projects = [
     {
       title: "Restaurant Webpage",
-      description:
-        "Developed a responsive restaurant website using ReactJS, MySQL, and Bootstrap to enhance user experience and digital engagement.",
-      image: "./src/assets/images/Tandoor.jpg", // Replace with actual image path
+      description: "Developed a responsive restaurant website using ReactJS, MySQL, and Bootstrap to enhance user experience and digital engagement.",
+      image: "/images/Tandoor.jpg", // Absolute path relative to the public folder
     },
     {
       title: "Health Recommendation App",
-      description:
-        "Integrated the Google Gemini API to deliver personalized diet and workout recommendations based on the user’s dietary habits and health details.",
-      image: "./src/assets/images/Health.jpg", // Replace with actual image path
+      description: "Integrated the Google Gemini API to deliver personalized diet and workout recommendations based on the user’s dietary habits and health details.",
+      image: "/images/Health.jpg",
     },
     {
       title: "Bike Price Estimation App",
-      description:
-        "Built machine learning model to predict bike prices based on features like kms driven, year, aiming to assist buyers and sellers in making informed decisions.",
-      image: "./src/assets/images/Bike.jpg", // Replace with actual image path
+      description: "Built machine learning model to predict bike prices based on features like kms driven, year, aiming to assist buyers and sellers in making informed decisions.",
+      image: "/images/Bike.jpg",
     },
   ];
+  
 
   return (
     <section className="projects-section">

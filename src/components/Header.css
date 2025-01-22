@@ -16,13 +16,19 @@
 
     /* Space between items */
   }
-  
+  @media screen and (max-width:455px){
+    .header-content{
+      flex-direction: column; 
+    }
+    
+  }
   /* Social Icons */
 .social-icons {
     position: absolute;
-    top: 50%; /* Center vertically relative to the header */
-    left: 0; /* Align to the left edge of the window */
-    transform: translateY(-50%); /* Adjust to perfectly center vertically */
+    top: 40%; /* Center vertically relative to the header */
+    left: 0;
+     /* Align to the left edge of the window */
+     /* Adjust to perfectly center vertically */
     display: flex;
     flex-direction: column;
     gap: 10px;

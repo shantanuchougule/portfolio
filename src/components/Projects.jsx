@@ -10,14 +10,19 @@ const Projects = () => {
       image: "/images/Tandoor.jpg", // Absolute path relative to the public folder
     },
     {
-      title: "Health Recommendation App",
+      title: "Personalized Health Recommendation App",
       description: "Integrated the Google Gemini API to deliver personalized diet and workout recommendations based on the user’s dietary habits and health details.",
-      image: "/images/Health.jpg",
+      image: "/images/Health.JPG",
     },
     {
       title: "Bike Price Estimation App",
       description: "Built machine learning model to predict bike prices based on features like kms driven, year, aiming to assist buyers and sellers in making informed decisions.",
       image: "/images/Bike.jpg",
+    },
+    {
+      title: "RecipeGenie: Personalized Recipe Generation Web App ",
+      description: "Developed Built a AI-driven Web App using GPT and Supabase on low code Lovable AI platform, enabling personalized recipe generation with dynamic nutrition per serving, ingredient-wise cost estimation, recipe scaling, dietary preference customization, and automated PDF report.",
+      image: "/images/RecipeGenie.JPG",
     },
   ];
   

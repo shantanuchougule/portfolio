@@ -7,7 +7,7 @@ const Education = () => {
       date: "Nov 2022 - May 2025",
       institution: "D. Y. Patil College of Engineering and Technology, Kolhapur.",
       degree: "B.Tech in Computer Science and Engineering (AI & ML)",
-      result: "Aggregate CGPA: 8.7",
+      result: "Aggregate CGPA: 8.9",
     },
     {
       date: "August 2019 - May 2022",
